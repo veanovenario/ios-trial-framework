@@ -1,15 +1,15 @@
 //
-//  WebViewController.m
+//  FTWebViewController.m
 //  FrameworkTrial
 //
 //  Created by Vea Novenario on 2/2/17.
 //  Copyright © 2017 Vea Novenario. All rights reserved.
 //
 
-#import "WebViewController.h"
+#import "FTWebViewController.h"
 #import "Constants.h"
 
-@interface WebViewController ()
+@interface FTWebViewController ()
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation WebViewController
+@implementation FTWebViewController
 
 #pragma mark - Life cycle
 
@@ -25,7 +25,7 @@
     
     NSBundle* frameworkBundle = [NSBundle bundleForClass:[self class]];
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:kStoryboardFrameworkTrial bundle:frameworkBundle];
-    self = (WebViewController *)[storyboard instantiateViewControllerWithIdentifier:@"WebViewController"];
+    self = (FTWebViewController *)[storyboard instantiateViewControllerWithIdentifier:@"FTWebViewController"];
     return self;
 }
 

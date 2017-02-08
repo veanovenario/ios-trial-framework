@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5B8928A01E4ABBD00026073F /* FrameworkTrial-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5B8928A31E4ABBD10026073F /* Build configuration list for PBXAggregateTarget "FrameworkTrial-Universal" */;
+			buildPhases = (
+				5B8928A41E4ABC0B0026073F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "FrameworkTrial-Universal";
+			productName = "FrameworkTrial-Universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		5BD83F631E430FF30085E0B8 /* FrameworkTrial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD83F591E430FF30085E0B8 /* FrameworkTrial.framework */; };
 		5BD83F681E430FF30085E0B8 /* FrameworkTrialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD83F671E430FF30085E0B8 /* FrameworkTrialTests.m */; };
@@ -13,8 +27,8 @@
 		5BD83F751E4310260085E0B8 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD83F731E4310260085E0B8 /* Constants.h */; };
 		5BD83F791E4310520085E0B8 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD83F771E4310520085E0B8 /* Utils.h */; };
 		5BD83F7A1E4310520085E0B8 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD83F781E4310520085E0B8 /* Utils.m */; };
-		5BD83F7D1E43164E0085E0B8 /* WebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD83F7B1E43164E0085E0B8 /* WebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BD83F7E1E43164E0085E0B8 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD83F7C1E43164E0085E0B8 /* WebViewController.m */; };
+		5BD83F7D1E43164E0085E0B8 /* FTWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD83F7B1E43164E0085E0B8 /* FTWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BD83F7E1E43164E0085E0B8 /* FTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD83F7C1E43164E0085E0B8 /* FTWebViewController.m */; };
 		5BD83F801E4317D10085E0B8 /* FrameworkTrial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD83F7F1E4317D10085E0B8 /* FrameworkTrial.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +52,8 @@
 		5BD83F731E4310260085E0B8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		5BD83F771E4310520085E0B8 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		5BD83F781E4310520085E0B8 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		5BD83F7B1E43164E0085E0B8 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		5BD83F7C1E43164E0085E0B8 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		5BD83F7B1E43164E0085E0B8 /* FTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWebViewController.h; sourceTree = "<group>"; };
+		5BD83F7C1E43164E0085E0B8 /* FTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWebViewController.m; sourceTree = "<group>"; };
 		5BD83F7F1E4317D10085E0B8 /* FrameworkTrial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FrameworkTrial.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,8 +101,8 @@
 				5BD83F731E4310260085E0B8 /* Constants.h */,
 				5BD83F771E4310520085E0B8 /* Utils.h */,
 				5BD83F781E4310520085E0B8 /* Utils.m */,
-				5BD83F7B1E43164E0085E0B8 /* WebViewController.h */,
-				5BD83F7C1E43164E0085E0B8 /* WebViewController.m */,
+				5BD83F7B1E43164E0085E0B8 /* FTWebViewController.h */,
+				5BD83F7C1E43164E0085E0B8 /* FTWebViewController.m */,
 				5BD83F7F1E4317D10085E0B8 /* FrameworkTrial.storyboard */,
 				5BD83F5D1E430FF30085E0B8 /* Info.plist */,
 			);
@@ -111,10 +125,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD83F791E4310520085E0B8 /* Utils.h in Headers */,
-				5BD83F7D1E43164E0085E0B8 /* WebViewController.h in Headers */,
-				5BD83F751E4310260085E0B8 /* Constants.h in Headers */,
 				5BD83F6A1E430FF30085E0B8 /* FrameworkTrial.h in Headers */,
+				5BD83F791E4310520085E0B8 /* Utils.h in Headers */,
+				5BD83F7D1E43164E0085E0B8 /* FTWebViewController.h in Headers */,
+				5BD83F751E4310260085E0B8 /* Constants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +180,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Vea Novenario";
 				TargetAttributes = {
+					5B8928A01E4ABBD00026073F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TRQW64F727;
+						ProvisioningStyle = Automatic;
+					};
 					5BD83F581E430FF30085E0B8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = TRQW64F727;
@@ -192,6 +211,7 @@
 			targets = (
 				5BD83F581E430FF30085E0B8 /* FrameworkTrial */,
 				5BD83F611E430FF30085E0B8 /* FrameworkTrialTests */,
+				5B8928A01E4ABBD00026073F /* FrameworkTrial-Universal */,
 			);
 		};
 /* End PBXProject section */
@@ -214,13 +234,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B8928A41E4ABC0B0026073F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "######################\n# Options\n######################\nNULL=\n\nREVEAL_ARCHIVE_IN_FINDER=false\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n######################\n# Build Frameworks\n######################\nif [ -d ${PROJECT_NAME}.xcworkspace ]; then\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\nelse\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\nfi\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n# For Swift framework, Swiftmodule needs to be copied in the universal framework\nif [ -d \"${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\ncp -f ${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule\\/${NULL}* \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\nfi\n\nif [ -d \"${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\ncp -f ${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule\\/${NULL}* \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\nfi\n\n######################\n# On Release, copy the result to release directory\n######################\nOUTPUT_DIR=\"${PROJECT_DIR}/Output\"\nTARGET_DIR=\"${OUTPUT_DIR}/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal/\"\n\nrm -rf \"$TARGET_DIR\"\nmkdir -p \"$TARGET_DIR\"\n\ncp -rf \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\ncp -r \"${FRAMEWORK}\" \"$TARGET_DIR\"\n\nif [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\nopen \"${OUTPUT_DIR}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BD83F541E430FF30085E0B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5BD83F7A1E4310520085E0B8 /* Utils.m in Sources */,
-				5BD83F7E1E43164E0085E0B8 /* WebViewController.m in Sources */,
+				5BD83F7E1E43164E0085E0B8 /* FTWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +279,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		5B8928A11E4ABBD10026073F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TRQW64F727;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B8928A21E4ABBD10026073F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TRQW64F727;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5BD83F6B1E430FF30085E0B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -404,6 +456,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5B8928A31E4ABBD10026073F /* Build configuration list for PBXAggregateTarget "FrameworkTrial-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8928A11E4ABBD10026073F /* Debug */,
+				5B8928A21E4ABBD10026073F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5BD83F531E430FF30085E0B8 /* Build configuration list for PBXProject "FrameworkTrial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -420,6 +480,7 @@
 				5BD83F6F1E430FF30085E0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BD83F701E430FF30085E0B8 /* Build configuration list for PBXNativeTarget "FrameworkTrialTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +489,7 @@
 				5BD83F721E430FF30085E0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

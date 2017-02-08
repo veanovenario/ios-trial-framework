@@ -12,7 +12,7 @@
         <!--Web View Controller-->
         <scene sceneID="MO6-DQ-jhC">
             <objects>
-                <viewController storyboardIdentifier="WebViewController" automaticallyAdjustsScrollViewInsets="NO" id="0Dr-tb-eTn" customClass="WebViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FTWebViewController" automaticallyAdjustsScrollViewInsets="NO" id="0Dr-tb-eTn" customClass="FTWebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GRa-uw-hT0"/>
                         <viewControllerLayoutGuide type="bottom" id="WAJ-x6-QZB"/>
